@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+:root{
+	--open: 'Open Sans', sans-serif;
+	--poppins: 'Poppins', sans-serif;
+	--Pink: hsl(322, 100%, 66%);
+	--Light-Pink: hsl(321, 100%, 78%);
+	--Light-Red: hsl(0, 100%, 63%);
+	--Dark-Cyan: hsl(192, 100%, 9%);
+	--Pale-Blue: hsl(207, 100%, 98%);
+}
+
+body{
+	background-color: #fff;
+	font-family: var(--open);
+	color: var(--Dark-Cyan);
+}
+.container{width: 80%;margin: 0 auto;}
+/*Stat of Navbar*/
+#navbar{
+	width: 100%;
+	background-color: #fff;
+	padding: 10px 4%;
+	margin-top: 4%;
+}
+#navbar .logo{float: left;}
+#navbar .nav-btn{
+	float: right;
+    background: transparent;
+    padding: 5px 18px;
+    border-radius: 30px;
+    border: 2px solid var(--Pink);
+}
+#navbar .nav-btn a{
+	text-decoration: none;
+	font-size: 15px;
+	color: var(--Pink);
+	font-family: sans-serif;
+}
+#navbar .nav-btn:hover{
+	border: 2px solid var(--Light-Pink);
+}
+#navbar .nav-btn:hover a{
+	color: var(--Light-Pink);
+}
+/*Start of Header*/
+header {margin: 10% 0 8% 0;text-align: center;}
+header h1{font-family: var(--poppins);font-size: 3.5vmax}
+header p{
+	width: 50%;
+    font-size: 1.3vmax;
+    margin: 3% auto;
+    line-height: 1.2;
+    color: var(--Dark-Cyan);
+    line-height: 1.3;
+    font-weight: 600;
+  }
+  header .head-btn,#community .btn{
+	font-size: 1.8vmax;
+    background-color: var(--Pink);
+    color: var(--Pale-Blue);
+    padding: 15px;
+    width: 40%;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    font-family: var(--open);
+    font-weight: 600;
+    box-shadow: 0px 5px 7px 0px #97c0e2;
+}
+
+/*End of Header*/
+/*Start of Reach styling*/
+#reach .mockups{
+  margin: 15% auto;
+	width: 100%;
+    height: auto;
+}
+#reach .row{margin: 5% 0;justify-content: flex-end;}
+#reach .row .num{
+	font-size: 7vmax;
+	margin: 15px 0;
+	font-family: var(--poppins);
+}
+#reach .row p{
+	font-size: 14px;
+	font-weight: 600;
+	color: #445f66;
+}
+/*End of Reach styling*/
+
+/*Start of Grow-together Part*/
+#grow-container{
+	background-color: var(--Pale-Blue);
+    margin:0;
+    padding: 5% 0;
+}
+#grow-together{
+	margin: 8% 0;
+    padding: 10% 0;
+    background-image: url(../images/bg-section-top-desktop-1.png),url(../images/bg-section-top-desktop-2.png);
+    background-position-y: top, bottom;
+    background-repeat: no-repeat,no-repeat;
+}
+.col-content{margin-top: 10%;margin-right: 5%;}
+.heading{font-size: 3vmax;margin: 15px 0;font-family: var(--poppins);}
+ .info{font-size: 14px;font-weight: 600;}
+#conversation .row .flowing{margin-top: 10%;margin-left: 5%;}
+#users-container{background-color: var(--Pale-Blue);margin: 5% 0;padding: 5% 0;}
+#users{
+	margin: 8% 0;
+    padding: 4% 0;
+    background-image: url(../images/bg-section-bottom-desktop-1.png),url(../images/bg-section-bottom-desktop-2.png);
+    background-position-y: top, bottom;
+    background-repeat: no-repeat,no-repeat;
+    background-size: contain;
+}
+#community{text-align: center;margin: 5% 0}
+#community h3{font-family: var(--poppins);font-size: 3vmax;margin-bottom: 2%;}
+/******Start Of Contact part*********/
+footer{
+	margin-top: 8%;
+	padding-top: 5%;
+    background-image: url(../images/bg-footer-top-desktop.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+footer #contact{
+	background-color: var(--Dark-Cyan);
+    margin-top: 5%;
+    color: var(--Pale-Blue);
+    padding: 60px 0;
+}
+footer #contact .row{margin-top: 20px;}
+footer #contact .col-60{margin-right: 5%;}
+footer #contact .col-60 span{
+	font-family: var(--poppins);
+    font-size: 3vmax;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+footer #contact .col-60 .footer-logo{width: 45px;height: auto;vertical-align: middle;}
+
+footer #contact .col-60 p{font-size: 13px;width: 50%;margin: 10px 0;}
+
+footer #contact .col-60 address{font-style: normal;margin:20px 0;}
+
+footer #contact .col-60 address img{vertical-align: middle;}
+
+footer #contact .col-60 address p{display: inline-block!important;font-size: 14px;margin-left: 10px;}
+
+footer #contact .col-60 .social a i{font-size: 1.8em;margin-right: 10px;color: var(--Pale-Blue)}
+
+footer #contact .col-60 .social a:hover{cursor: pointer;background-color: var(--Pale-Blue);} 
+
+footer #contact .col-40 h4{font-family: var(--poppins);font-size: 3vmax;text-transform: uppercase;}
+
+footer #contact .col-40 p{font-size: 13px;margin: 15px 0;width: 80%;}
+
+footer #contact .col-40 form,footer #contact .col-60 .social{margin-top: 10%}
+
+footer #contact .col-40 form input{
+	width: 60%;
+    margin-right: 3%;
+    border-radius: 5px;
+    border: navajowhite;
+    padding: 9px 8px;
+}
+footer #contact .col-40 form .submit{
+	padding: 8px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    background-color: var(--Pink);
+    color: var(--Pale-Blue);
+    border-radius: 5px;
+    border: inherit;
+}
+footer .copy-right{
+	padding: 10px 0 ;
+	text-align: center;
+	font-family: var(--open);
+	background-color: var(--Pale-Blue);
+	font-size: 13px;
+}
+
+/***************/
+footer #contact .col-40 form .submit:hover,header .head-btn:hover,#community .btn:hover{
+	cursor: pointer;
+	background-color: var(--Light-Pink);
+}
+button:focus {outline: none;}
+
+.row,.row1,.row2{display: flex;flex-direction:row;}
+
+.row .col-50 img{width: 100%;}
+.col-40{width: 40%;}
+.col-60{width: 60%;}
+.col-50{width: 50%;}
+.clearfix{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/*Media Rules*/
+@media (max-width: 375px){
+  .row{flex-direction:column;margin-top: 8%}
+  .row1,.row2{flex-direction:column-reverse;}
+  .col-40{width: 100%;margin-top: 8%}
+  .col-60{width: 100%;margin-top: 20%}
+  .col-50{width: 100%;margin-top: 15%;text-align: center}
+  #navbar .logo{width: 140px;margin-top: 5px;}
+  header h1{font-size: 20px;margin: 32% 5% 10% 5%;}
+  header p{width: 85%;font-size: 14px;margin: 10% auto;}
+  header .head-btn,#community .btn{width: 80%}
+  header .head-btn, #community .btn {font-size: 1.4vmax;}
+  #reach .reach-content{width: 60%!important;margin: 8% auto;}
+  #grow-container{margin: 16% 0;}
+  #grow-together{
+    margin: 8% 0;
+    padding: 10% 0;
+    background-image: url(../images/bg-section-top-mobile-1.png),url(../images/bg-section-top-mobile-2.png);
+    background-position-y: top, bottom;
+    background-repeat: no-repeat,no-repeat;
+  }
+  #users{
+    margin: 8% 0;
+    padding: 4% 0;
+    background-image: url(../images/bg-section-bottom-mobile-1.png),url(../images/bg-section-bottom-mobile-2.png);
+    background-position-y: top, bottom;
+    background-repeat: no-repeat,no-repeat;
+    background-size: contain;
+  }
+  #users-container{margin-top: 8%;margin-bottom: 21%;}
+  #community{margin: 20% auto}
+  #community h3 {font-size: 2.3vmax;margin-bottom: 10%;}
+  footer{
+    background-image: url(../images/bg-footer-top-mobile.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  footer #contact{margin-top: 7%;}
+  .col-content{margin-top: 10%;margin-right: 5%;}
+  .heading{font-size: 20px;}
+  #conversation .row .flowing{margin-left:0;}
+  #reach .row .num{font-size: 5vmax;margin:0}
+  footer #contact .col-40 h4,footer #contact .col-60 span {font-size: 3vmax;}
+  footer #contact .col-40 form input{width: 100%;margin-right: 0}
+  footer #contact .col-60 p{width: 90%}
+  footer #contact .col-60 .footer-logo {width: 36px;}
+}
+
+
+@media (min-width:375px && max-width: 700px){
+  .row{flex-direction:column;margin-top: 8%}
+  .row1,.row2{flex-direction:column-reverse;}
+  .col-40{width: 100%;margin-top: 8%}
+  .col-60{width: 100%;margin-top: 20%}
+  .col-50{width: 100%;margin-top: 15%;text-align: center}
+  #navbar .logo{width: 140px;margin-top: 5px;}
+  header h1{font-size: 4.5vmax;margin: 32% 5% 10% 5%;}
+  header p{width: 85%;font-size: 14px;margin: 10% auto;}
+  header .head-btn,#community .btn{font-size: 2.8vmax;width: 80%}
+  #reach .reach-content{width: 60%!important;margin: 8% auto;}
+  #reach .row .num{font-size: 10vmax;margin:0}
+  #grow-container{margin: 18% 0;}
+  #grow-together{
+  margin: 8% 0;
+    padding: 10% 0;
+    background-image: url(../images/bg-section-top-mobile-1.png),url(../images/bg-section-top-mobile-2.png);
+    background-position-y: top, bottom;
+    background-repeat: no-repeat,no-repeat;
+  }
+  #users{
+    margin: 8% 0;
+    padding: 4% 0;
+    background-image: url(../images/bg-section-bottom-mobile-1.png),url(../images/bg-section-bottom-mobile-2.png);
+    background-position-y: top, bottom;
+    background-repeat: no-repeat,no-repeat;
+    background-size: contain;
+  }
+  #users-container{margin-top: 10%;margin-bottom: 23%;}
+  #community{margin: 20% auto}
+  #community h3 {font-size: 4vmax;margin-bottom: 10%;}
+  footer{
+    background-image: url(../images/bg-footer-top-mobile.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  footer #contact{margin-top: 7%;}
+  .col-content{margin-top: 10%;margin-right: 5%;}
+  .heading{font-size: 3.5vmax;}
+  #conversation .row .flowing{margin-left:0;}
+  footer #contact .col-40 h4,footer #contact .col-60 span {font-size: 5vmax;}
+  footer #contact .col-40 form input{width: 100%;margin-right: 0}
+  footer #contact .col-60 p{width: 90%}
+  footer #contact .col-60 .footer-logo {width: 36px;}
+}
